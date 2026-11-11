@@ -1,13 +1,16 @@
 :root {
-  --paper: #e6ecef;
-  --ink: #101b33;
-  --muted: #4d5873;
-  --cobalt: #2438e0;
-  --highlight: #f4e04d;
-  --rule: #101b3326;
+  --paper: #1d1612;
+  --ink: #efe6dc;
+  --muted: #b5a597;
+  --cobalt: #cfe3c9;       
+  --highlight: #a8c3a0;    
+  --on-highlight: #1d1612;
+  --rule: #efe6dc26;
 
-  --display: 'Bricolage Grotesque', system-ui, sans-serif;
-  --text: 'Literata', Georgia, serif;
+  color-scheme: dark;
+
+  --display: 'Inter', system-ui, sans-serif;
+  --text: 'Inter', system-ui, sans-serif;
 
   --gutter: clamp(1.25rem, 5vw, 4rem);
 }
@@ -140,15 +143,16 @@ ul, ol {
   font-family: var(--display);
   font-weight: 600;
   font-size: 0.95rem;
+  color: var(--on-highlight);
 }
 
 .hero__headline {
   font-family: var(--display);
-  font-weight: 800;
-  font-size: clamp(2.5rem, 6.5vw, 5.25rem);
+  font-weight: 700;
+  font-size: clamp(2.25rem, 5.5vw, 4.5rem);
   line-height: 1;
-  letter-spacing: -0.035em;
-  max-width: 16ch;
+  letter-spacing: -0.02em;
+  max-width: 18ch;
 }
 
 .hero__intro {
