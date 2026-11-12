@@ -307,10 +307,17 @@ ul, ol {
   margin-bottom: 1.5rem;
 }
 
-.filters__btn[aria-pressed='true'] {
-  background: var(--highlight);
+.filters__btn {
+  padding: 0.4rem 1rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: transparent;
   border-color: var(--highlight);
-  color: var(--on-highlight);
+  color: var(--ink);
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
 }
 
 .filters__btn:hover {
@@ -319,8 +326,9 @@ ul, ol {
 }
 
 .filters__btn[aria-pressed='true'] {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--highlight);
+  color: var(--on-highlight);
+  border-color: var(--highlight);
 }
 
 .work__row {
