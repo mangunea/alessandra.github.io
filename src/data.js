@@ -42,8 +42,16 @@ export const projects = [
     category: 'Game Development',
     title: 'Cat Game',
     description: 'A demo cat game with simple mechanics using Godot and C#.',
-    stack: ['Godot', 'C#', 'Krita'],
+    stack: ['Godot,', 'C#,', 'Krita'],
     href: 'https://github.com/mangunea/kitty-game-project',
+    linkLabel: 'GitHub',
+  },
+  {
+    category: 'Game Development',
+    title: 'Snake Apple Game',
+    description: 'My own version of the classic snake apple game.',
+    stack: ['libGDX,', 'Java,', 'Gradle'],
+    href: 'https://github.com/mangunea/SnakeGame',
     linkLabel: 'GitHub',
   },
 ]

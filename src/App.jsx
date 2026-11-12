@@ -34,12 +34,15 @@ function Projects() {
 
       <ul className="work">
         {shown.map((project) => (
-          <li key={project.title} className="work__row">
+          <li key={project.title} className="work__row">    
             <span className="work__category">{project.category}</span>
             <div className="work__body">
               <h3 className="work__title">
                 <a href={project.href} target="_blank" rel="noreferrer">
                   {project.title}
+                  <svg className="work__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M7 17 17 7M8 7h9v9" />
+                  </svg>
                   <span className="visually-hidden"> on {project.linkLabel}</span>
                 </a>
               </h3>
