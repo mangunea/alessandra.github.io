@@ -247,7 +247,7 @@ ul, ol {
   font-family: var(--display);
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--highlight);
   margin-bottom: 0.25rem;
 }
 
@@ -279,22 +279,6 @@ ul, ol {
   font-weight: 700;
   font-size: 1.15rem;
   margin-bottom: 0.75rem;
-}
-
-.principles li {
-  display: grid;
-  gap: 0.1rem;
-  padding: 0.9rem 0;
-  border-top: 1px solid var(--rule);
-}
-
-.principles li:last-child {
-  border-bottom: 1px solid var(--rule);
-}
-
-.principles span {
-  color: var(--muted);
-  font-size: 0.975rem;
 }
 
 .skills {
@@ -329,7 +313,6 @@ ul, ol {
   color: var(--on-highlight);
 }
 
-
 .filters__btn:hover {
   border-color: var(--cobalt);
   color: var(--cobalt);
@@ -355,7 +338,7 @@ ul, ol {
 .work__category {
   font-family: var(--display);
   font-weight: 500;
-  color: var(--highlight)
+  color: var(--ink)
 }
 
 .work__title {
