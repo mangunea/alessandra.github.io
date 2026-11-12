@@ -1,16 +1,17 @@
 :root {
-  --paper: #1d1612;
-  --ink: #efe6dc;
-  --muted: #b5a597;
-  --cobalt: #cfe3c9;       
-  --highlight: #a8c3a0;    
-  --on-highlight: #1d1612;
-  --rule: #efe6dc26;
+  --paper: #33231a;       
+  --ink: #f1e4d0;         
+  --muted: #c9b399;        
+  --cobalt: #d9e0a3;       
+  --highlight: #a8b86a;   
+  --on-highlight: #33231a;
+  --forest: #2a3622; 
+  --rule: #f1e4d033;    
 
   color-scheme: dark;
 
-  --display: 'Inter', system-ui, sans-serif;
-  --text: 'Inter', system-ui, sans-serif;
+  --display: 'IBM Plex Mono', ui-monospace, monospace;
+--text: 'IBM Plex Sans', system-ui, sans-serif;
 
   --gutter: clamp(1.25rem, 5vw, 4rem);
 }
@@ -116,10 +117,10 @@ ul, ol {
 }
 
 .btn--solid {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--highlight);
+  border-color: var(--highlight);
+  color: var(--on-highlight);
 }
-
 .btn:hover {
   background: var(--cobalt);
   border-color: var(--cobalt);
@@ -322,17 +323,12 @@ ul, ol {
   margin-bottom: 1.5rem;
 }
 
-.filters__btn {
-  padding: 0.4rem 1rem;
-  border: 2px solid var(--ink);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--ink);
-  font-family: var(--display);
-  font-weight: 600;
-  font-size: 0.95rem;
-  cursor: pointer;
+.filters__btn[aria-pressed='true'] {
+  background: var(--highlight);
+  border-color: var(--highlight);
+  color: var(--on-highlight);
 }
+
 
 .filters__btn:hover {
   border-color: var(--cobalt);
@@ -359,7 +355,7 @@ ul, ol {
 .work__category {
   font-family: var(--display);
   font-weight: 500;
-  color: var(--muted);
+  color: var(--highlight)
 }
 
 .work__title {
@@ -367,13 +363,6 @@ ul, ol {
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.2;
-}
-
-.work__title a {
-  text-decoration-color: var(--highlight);
-  text-decoration-thickness: 0.35em;
-  text-underline-offset: -0.15em;
-  text-decoration-skip-ink: none;
 }
 
 .work__title a:hover {
@@ -441,11 +430,6 @@ ul, ol {
   font-size: clamp(1.5rem, 4.5vw, 2.75rem);
   letter-spacing: -0.02em;
   overflow-wrap: anywhere;
-}
-
-.contact__mail a {
-  text-decoration-color: var(--highlight);
-  text-decoration-thickness: 0.18em;
 }
 
 .contact__actions {

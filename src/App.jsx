@@ -79,6 +79,9 @@ function CopyEmail({ email }) {
   )
 }
 
+/*
+mainapp area
+*/
 export default function App() {
   return (
     <>
