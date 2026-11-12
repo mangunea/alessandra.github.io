@@ -11,7 +11,7 @@ export const profile = {
         { value: 'Cloud + Web', label: 'Main focus' },
         { value: 'Open source', label: 'Where I share my work' },
     ],
-        photo: 'public/assets/portfoliopicture.jpg',
+        photo: 'assets/portfoliopicture.jpg',
         photoAlt: 'Portrait of Alessandra',
         email: 'alessandramangune@gmail.com',
         links: [
