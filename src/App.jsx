@@ -140,7 +140,7 @@ export default function App() {
 </section>
 
 <section id="skills" className="section" aria-labelledby="skills-title">
-  <SectionHead id="skills-title" label="02 · Skills" title="Technical skills" />
+  <SectionHead id="skills-title" label="02 · Skills" title="Technical Skills" />
   <div className="skills">
     {skills.map((group) => (
       <div key={group.group}>
@@ -161,7 +161,7 @@ export default function App() {
 </section>
 
 <section id="experience" className="section" aria-labelledby="experience-title">
-  <SectionHead id="experience-title" label="04 · Experience" title="Education and experience" />
+  <SectionHead id="experience-title" label="04 · Experience" title="Education & Experience" />
   <ol className="timeline">
     {timeline.map((item) => (
       <li key={item.title}>

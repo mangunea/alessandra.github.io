@@ -1,7 +1,7 @@
 //all information of my profile
 export const profile = {
     name: 'Alessandra',
-    logo: '<My Developer Profile />',
+    logo: '<Portfolio />',
     available: 'Available for co-op',
     headline: 'Alessandra Mangune',
     intro:
@@ -30,10 +30,10 @@ export const about = {
 
 //all my skills
 export const skills = [
-  { group: 'Languages', items: ['JavaScript', 'C#', 'Python', 'Java', 'SQL'] },
-  { group: 'Frontend and mobile', items: ['React', 'Vite', 'HTML and CSS', 'Tailwind CSS'] },
-  { group: 'Cloud and infrastructure', items: ['AWS', 'Docker', 'Linux', 'Git and GitHub Actions'] },
-  { group: 'Backend and storage', items: ['Node.js', 'Spring Boot', 'SQLite'] },
+  { group: 'Languages', items: ['- JavaScript', '- C#', '- Python', '- Java', '- SQL'] },
+  { group: 'Frontend & Mobile', items: ['- React', '- Vite', '- HTML and CSS', '- Tailwind CSS'] },
+  { group: 'Cloud & Infrastructure', items: ['- AWS', '- Docker', '- Linux', '- Git and GitHub Actions'] },
+  { group: 'Backend & Storage', items: ['- Node.js', '- Spring Boot', '- SQLite'] },
 ]
 
 //add projects here
