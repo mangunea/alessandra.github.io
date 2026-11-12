@@ -11,7 +11,7 @@
   color-scheme: dark;
 
   --display: 'IBM Plex Mono', ui-monospace, monospace;
---text: 'IBM Plex Sans', system-ui, sans-serif;
+  --text: 'IBM Plex Sans', system-ui, sans-serif;
 
   --gutter: clamp(1.25rem, 5vw, 4rem);
 }
@@ -117,8 +117,8 @@ ul, ol {
 }
 
 .btn--solid {
-  background: var(--highlight);
-  border-color: var(--highlight);
+  background: var(--ink);
+  border-color: var(--ink);
   color: var(--on-highlight);
 }
 .btn:hover {
@@ -424,10 +424,10 @@ ul, ol {
 }
 
 .contact__mail {
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   font-family: var(--display);
   font-weight: 700;
-  font-size: clamp(1.5rem, 4.5vw, 2.75rem);
+  font-size: clamp(1.5rem, 1.5vw, 2.75rem);
   letter-spacing: -0.02em;
   overflow-wrap: anywhere;
 }
@@ -436,8 +436,8 @@ ul, ol {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.75rem;
-  margin-top: 1.75rem;
+  gap: 0.55rem;
+  margin-top: 1.25rem;
 }
 
 .copy-status {

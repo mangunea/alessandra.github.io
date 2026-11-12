@@ -10,6 +10,7 @@ function SectionHead({ id, label, title }) {
   )
 }
 
+/*projects area */
 function Projects() {
   const categories = ['All', ...new Set(projects.map((p) => p.category))]
   const [active, setActive] = useState('All')
@@ -56,6 +57,7 @@ function Projects() {
   )
 }
 
+/*copy email button area */
 function CopyEmail({ email }) {
   const [status, setStatus] = useState('')
 
@@ -100,11 +102,10 @@ export default function App() {
       <header id="hero" className="hero">
 
         <div className="hero__text">
-          <p className="hero__badge">{profile.available}</p>
           <h1 className="hero__headline">{profile.headline}</h1>
           <p className="hero__intro">{profile.intro}</p>
           <div className="hero__actions">
-            <a className="btn btn--solid" href="#projects">View featured work</a>
+            <a className="btn btn--solid" href="#projects">Check out my projects!</a>
             <a className="btn btn--ghost" href="#contact">Contact me</a>
           </div>
         </div>
@@ -155,7 +156,7 @@ export default function App() {
 </section>
 
 <section id="projects" className="section" aria-labelledby="projects-title">
-  <SectionHead id="projects-title" label="03 · Project portfolio" title="Featured projects" />
+  <SectionHead id="projects-title" label="03 · Project portfolio" title="My Projects" />
   <Projects />
 </section>
 

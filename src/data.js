@@ -40,10 +40,10 @@ export const skills = [
 export const projects = [
   {
     category: 'Game Development',
-    title: 'Project one',
-    description: 'One or two sentences on what it does and who it is for. Say what was hard about it.',
-    stack: ['React', 'Vite', 'REST API'],
-    href: 'https://github.com/mangunea/project-one',
+    title: 'Cat Game',
+    description: 'A demo cat game with simple mechanics using Godot and C#.',
+    stack: ['Godot', 'C#', 'Krita'],
+    href: 'https://github.com/mangunea/kitty-game-project',
     linkLabel: 'GitHub',
   },
 ]
@@ -51,23 +51,30 @@ export const projects = [
 //my experiences and school information
 export const timeline = [
   {
-    when: 'School',
+    when: 'Education',
     title: 'Bachelor of Computer Science - Cloud Computing',
-    place: 'Sheridan College',
-    text: 'Sept 2024- April 2028',
-  },
-  {
-    when: 'Volunteering',
-    title: 'Student Mentor',
-    place: 'Big Brothers & Big Sisters of Halton and Hamilton',
-    text: 'The side projects where you try new tools and build things for yourself.',
+    place: 'Sheridan College: Sept 2024 - April 2028',
+    text: 'Relevant Courses: Internet of Things, Information Systems and Security, OO Programming, Enterprise Software Systems'
   },
   {
     when: 'Work',
     title: 'Registration Lead',
-    place: 'Multisport Canada',
-    text: 'The side projects where you try new tools and build things for yourself.',
+    place: 'Multisport Canada: April 2026 - Current',
+    text: 'Applied organizational, problem-solving, and critical thinking skills in a fast-paced environment while balancing multiple responsibilities.',
   },
+  {
+    when: 'Leadership',
+    title: 'VP & Treasurer',
+    place: 'Sheridan College SFSA Club: April 2025 - Current',
+    text: 'Engaged with students during club events and recruitment activities, answering questions and encouraging participation.',
+  },
+  {
+    when: 'Volunteering',
+    title: 'Student Mentor',
+    place: 'Big Brothers & Big Sisters of Halton and Hamilton: Nov 2022 - May 2023',
+    text: 'Supported elementary students with homework and academic projects, strengthening communication and problem-solving skills in regards to all school subjects. ',
+  },  
+  
 ]
 
 //connecting
