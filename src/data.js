@@ -5,7 +5,7 @@ export const profile = {
     available: 'Available for co-op',
     headline: 'Alessandra Mangune',
     intro:
-        'Hi my name is Alessandra! I am a software developer with a passion for building web and cloud applications. I enjoy working with modern technologies and continuously learning new skills.',
+        'Hi my name is Alessandra! I am a Cloud Computing student with a passion for building web and cloud applications. I enjoy working with hardware and continuously learning new skills.',
     stats: [
         { value: '2+', label: 'Projects completed' },
         { value: 'Cloud + Web', label: 'Main focus' },
@@ -23,8 +23,7 @@ export const profile = {
 //about me
 export const about = {
   paragraphs: [
-    'around 2 paragraphs here on the works ive done and the people i like working with.',
-    'talk about the tools im growing in!.',
+    'I am currently a student at Sheridan College purusing a Bachelor of Computer Science in Cloud Computing. I enjoy building things I can run and show people, like web applications, mini games and cloud solutions. I have also taken part in a datathon, and plan to do more! Working with hardware like Arduinos are also something I enjoy, and I am always looking for new opportunities to learn and grow as a developer. One main thing about me is that everything I touch must be organized!',
   ]
 }
 

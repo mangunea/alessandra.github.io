@@ -262,12 +262,11 @@ ul, ol {
 
 .about {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 24rem);
-  gap: 2rem;
+  grid-template-columns: 1fr;
 }
 
 .about__text {
-  max-width: 64ch;
+  max-width: 90ch;
 }
 
 .about__sub {
