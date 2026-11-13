@@ -2,12 +2,11 @@
 export const profile = {
     name: 'Alessandra',
     logo: '<Portfolio />',
-    available: 'Available for co-op',
     headline: 'Alessandra Mangune',
     intro:
         'Hi my name is Alessandra! I am a Cloud Computing student with a passion for building web and cloud applications. I enjoy working with hardware and continuously learning new skills.',
     stats: [
-        { value: '2+', label: 'Projects completed' },
+        { value: '3+', label: 'Projects completed' },
         { value: 'Cloud + Web', label: 'Main focus' },
         { value: 'Open source', label: 'Where I share my work' },
     ],
@@ -53,6 +52,14 @@ export const projects = [
     href: 'https://github.com/mangunea/SnakeGame',
     linkLabel: 'GitHub',
   },
+  {
+    category: 'Hardware',
+    title: 'Distance Sensing Trash Can',
+    description: 'A trashcan that opens when you are close to it using an Arduino and a distance sensor.',
+    stack: ['Arduino Uno R3,', 'C++'],
+    href: 'https://drive.google.com/file/d/1Igr4CP2OL3Qj7gEap3q-V6C4B05eUJc2/view?usp=sharing',
+    linkLabel: 'Video Demo',
+  },
 ]
 
 //my experiences and school information
@@ -61,7 +68,7 @@ export const timeline = [
     when: 'Education',
     title: 'Bachelor of Computer Science - Cloud Computing',
     place: 'Sheridan College: Sept 2024 - April 2028',
-    text: 'Relevant Courses: Internet of Things, Information Systems and Security, OO Programming, Enterprise Software Systems'
+    text: 'Relevant Courses: IoT, Information Systems & Security, OO Programming, Enterprise Software Systems'
   },
   {
     when: 'Work',
@@ -79,7 +86,7 @@ export const timeline = [
     when: 'Volunteering',
     title: 'Student Mentor',
     place: 'Big Brothers & Big Sisters of Halton and Hamilton: Nov 2022 - May 2023',
-    text: 'Supported elementary students with homework and academic projects, strengthening communication and problem-solving skills in regards to all school subjects. ',
+    text: 'Supported elementary students with homework and academic projects, in regards to all school subjects. ',
   },  
   
 ]
